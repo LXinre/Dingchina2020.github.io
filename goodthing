@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>here is ahqo's blog</title>
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-app-capable" content="yes">
+    <meta name="apple-mobile-app-status-bar-style" content="black">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="ahqo">
+    <meta name="application-name" content="Cononico" >
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/process.css">
+    <link rel="shortcut icon"  type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body>
+<template>
+  <iframe   src="https://zhifu.baidu.com/static/epic/h5-cashier/entry/qrpay/index.html?reqParams=customerId%3D14%26customerUid%3Dul7pWz2mcfo856PwVB4jMAxFuJBaa0j%26deviceType%3D2%26extData%3D%257B%2522uk%2522%253A3719150617%252C%2522pass%2522%253A%2522%257B%255C%2522GMV%255C%2522%253A%257B%255C%2522vmgdb%255C%2522%253A%255C%2522%255C%2522%252C%255C%2522uno%255C%2522%253A%255C%2522G1T13i4NUc%252BmZukCFYMAkNBSXaibUGyxbd0j5sSNNE%252B5vThOvNtCvZmNWr2jAGwP%255C%2522%257D%252C%255C%2522offline_pay%255C%2522%253A0%257D%2522%257D%26itemInfo%3D%255B%257B%2522id%2522%253A%252217270660239466428878%2522%252C%2522name%2522%253A%2522%2525E4%2525BA%252591%2525E8%2525A7%2525A3%2525E5%25258E%25258B%2525E5%252588%2525B8%2522%252C%2522number%2522%253A%25221%2522%252C%2522price%2522%253A490%257D%255D%26mobile%3D13800000000%26notifyUrl%3Dhttp%25253A%25252F%25252Foutervipv2.pan.baidu-int.com%25252Frest%25252F2.0%25252Fvass%25252Fvass%26orderCreateTime%3D1653745258%26orderExpireTime%3D1653747658%26orderId%3D220528496464018787%26originalAmount%3D490%26payAmount%3D490%26product_type%3DGENERAL_WITHHOLDING%26returnUrl%3Dhttps%25253A%25252F%25252Fyun.baidu.com%25252Fbuy%25252Fcenter%25253Ftag%25253D3%2525230%26sdk%3D0%26service%3Dcashier%26tag%3Dunionqr%26title%3D%25E4%25BA%2591%25E8%25A7%25A3%25E5%258E%258B%25E5%2588%25B8%26tpl%3D10%26signType%3DMD5%26sign%3D0c5eeec60ed5b0d040b5d0e67a1caa1a%26feParams%3D%257B%2522mktDesc%2522%253A%2522%2522%252C%2522customerName%2522%253A%2522%255Cu4e91%255Cu76d8%2522%257D%26reqData%3D%257B%2522scanAppList%2522%253A%255B%2522alipay%2522%252C%2522wechat%2522%252C%2522baifubao%2522%255D%257D&feParams=%7B%22mktDesc%22%3A%22%22%2C%22customerName%22%3A%22%5Cu4e91%5Cu76d8%22%7D#/result?discount=null&createTime=1653745369&agentName=Wechat_Agent&totalAmount=490&agentTxNo=4200001441202205283369354646&txNo=3794341241244&title=%E4%BA%91%E8%A7%A3%E5%8E%8B%E5%88%B8"   :style="{width: width, height:height}" frameborder="0" ></iframe>
+</template>
+<script>
+export default {
+  name: 'ComponentsName',
+  data() {
+    return {
+      height: window.innerHeight + 'px',//自适应当前窗口高度
+      width: '100%'//自适应当前窗口宽度
+    }
+  },
+}
+</script>
+</body>
+</html>
