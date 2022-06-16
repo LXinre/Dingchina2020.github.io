@@ -3,13 +3,17 @@
 <head>
   <title>文件仓库</title>
   <style>
-    .main{
+    div.main{
       margin: 20px;
       width: 400px;
       border: 2px solid #3299CC;
       border-radius: 5px;
       list-style-type: circle;
       background-color: #70DBDB;
+    }
+    
+    div.header{
+      
     }
     
     a.download{
@@ -20,17 +24,24 @@
       list-style-type: none;
       margin: 0;
       padding: 0;
+      overflow: hidden;
+      background-color: #333;
     }
 
     li {
-      display: inline;
       float: left;
     }
-    
+
     li a {
       display: block;
-      padding: 8px;
-      background-color: #dddddd;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
     }
   </style>
 </head>
