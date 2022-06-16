@@ -3,7 +3,7 @@
 <head>
   <title>文件仓库</title>
   <style>
-    div.main{
+    .main{
       margin: 20px;
       width: 400px;
       border: 2px solid #3299CC;
@@ -12,8 +12,12 @@
       background-color: #70DBDB;
     }
     
-    div.header{
-      
+    .head-left{
+      text-align: left
+    }
+    
+    .head-right{
+      text-align: right
     }
     
     a.download{
@@ -46,11 +50,14 @@
   </style>
 </head>
 <body>
-  <div class="header">
-    <ul>
-      <li><a href="../../index.html">Home</a></li>
-    </ul>
-  </div
+  <header>
+    <div class="head-left"></div>
+    <div class="head-right">
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+      </ul>
+    </div>
+  </header>
   
   <div class="main">
     <a class="download" href="files/MoonOS v.1.0.0.zip">MoonOS v.1.0.0</a>
